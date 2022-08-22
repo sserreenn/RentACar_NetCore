@@ -1,0 +1,274 @@
+# https://www.toptal.com/developers/gitignore/api/aspnetcore tarafından düzenlendi
+# https://www.toptal.com/developers/gitignore?templates=aspnetcore adresinde düzenleyin
+
+### ASPNETCore ###
+## Visual Studio geçici dosyalarını yoksay, sonuçları oluştur ve
+## popüler Visual Studio eklentileri tarafından oluşturulan dosyalar.
+
+# Kullanıcıya özel dosyalar
+*.suo
+*.kullanıcı
+*.userosscache
+*.sln.docstates
+
+# Kullanıcıya özel dosyalar (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Derleme sonuçları
+[Dd]ebug/
+[Dd]ebugGenel/
+[Rr]boş ver/
+[Rr]açıklar/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[L]og/
+
+# Visual Studio 2015 önbellek/seçenekler dizini
+.vs/
+# wwwroot'ta projenin statik dosyalarını oluşturan görevleriniz varsa yorumdan vazgeçin
+#wwwroot/
+
+# MSTest test sonuçları
+[Tt]est[Rr]sonuç*/
+[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Bir ATL Projesinin Sonuçlarını Oluşturma
+[Dd]ebugPS/
+[Rr]leasePS/
+dlldata.c
+
+# DNX
+proje.lock.json
+proje.fragment.lock.json
+eserler/
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.kayıt
+*.vspscc
+*.vssscc
+.inşa eder
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test dosyaları
+_Küstahlık*
+
+# Visual C++ önbellek dosyaları
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profil oluşturucu
+*.pses
+*.vsp
+*.vspx
+*.sap
+
+# TFS 2012 Yerel Çalışma Alanı
+$tf/
+
+# Kılavuz Otomasyon Araç Seti
+*.gpState
+
+# ReSharper bir .NET kodlama eklentisidir
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode bir .NET kodlama eklentisidir
+.SadeceKod
+
+# TeamCity bir yapı eklentisidir
+_TeamŞehir*
+
+# DotCover bir Kod Kapsama Aracıdır
+*.dotKapak
+
+# Visual Studio kod kapsamı sonuçları
+*.kapsama
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+Otomatik Test.Net/
+
+# Web tezgahı (sass)
+.sass-önbellek/
+
+# Installshield çıktı klasörü
+[Ee] ekspres/
+
+# DocProject bir dokümantasyon oluşturucu eklentisidir
+DocProject/buildhelp/
+BelgeProje/Yardım/*.HxT
+BelgeProje/Yardım/*.HxC
+BelgeProje/Yardım/*.hhc
+BelgeProje/Yardım/*.hhk
+BelgeProje/Yardım/*.hhp
+BelgeProje/Yardım/Html2
+BelgeProjesi/Yardım/html
+
+# Bir Kez Tıklama dizini
+Yayınla/
+
+# Web Çıktısını Yayınla
+*.[Pp]ublish.xml
+*.azurePubxml
+# YAPILACAKLAR: Web dağıtım ayarlarınızı kontrol etmek istiyorsanız sonraki satırı yorumlayın
+# ancak veritabanı bağlantı dizeleri (olası şifrelerle) şifrelenmemiş olacak
+*.pubxml
+*.yayınlaproj
+
+# Microsoft Azure Web App yayınlama ayarları. İsterseniz sonraki satırı yorumlayın
+# Azure Web Uygulaması yayımlama ayarlarınızı kontrol edin, ancak içerdiği hassas bilgiler
+# bu komut dosyalarında şifrelenmemiş olacak
+Yayınlama Komut Dosyaları/
+
+# NuGet Paketleri
+*.nupkg
+# Paket Geri Yükleme nedeniyle paketler klasörü göz ardı edilebilir
+**/paketler/*
+# MSBuild hedefi olarak kullanılan build/ hariç.
+!**/paketler/yapı/
+# Gerekirse yorum yapmayın, ancak genellikle gerektiğinde yeniden oluşturulur
+#!**/packages/repositories.config
+# NuGet v3'ün project.json dosyaları daha fazla göz ardı edilebilir dosya üretir
+*.nuget.props
+*.nuget.hedefler
+
+# Microsoft Azure Yapı Çıktısı
+csx/
+*.build.csdef
+
+# Microsoft Azure Emülatörü
+ecf/
+rcf/
+
+# Windows Mağazası uygulama paketi dizinleri ve dosyaları
+Uygulama Paketleri/
+PaketYapıları/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+# Visual Studio önbellek dosyaları
+.cache ile biten # dosya yoksayılabilir
+*.[Cc]ağrı
+# ancak .cache ile biten dizinleri takip edin
+!*.[Cc]ağrı/
+
+# Diğerleri
+Müşteri Kutusu/
+~$*
+*~
+*.dbmdl
+*.dbproj.şema görünümü
+*.jfm
+*.pfx
+*.yayın ayarları
+düğüm_modülleri/
+orleans.codegen.cs
+
+# Birden fazla iş akışı olduğundan, bower_components'ı yoksaymak için sonraki satırın açıklamasını kaldırın
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/Silverlight projeleri
+Oluşturulan_Kod/
+
+# Eski bir proje dosyasını dönüştürerek dosyaları yedekleyin ve raporlayın
+# daha yeni bir Visual Studio sürümüne. Yedekleme dosyaları gerekli değildir,
+# çünkü git'imiz var ;-)
+_UpgradeReport_Files/
+Destek olmak*/
+UpgradeLog*.XML
+Yükseltme Günlüğü*.htm
+
+# SQL Server dosyaları
+*.mdf
+*.ldf
+
+# İş Zekası projeleri
+*.rdl.veri
+*.bim.layout
+*.bim_*.ayarları
+
+# Microsoft Sahtekarlıkları
+Sahte Montajlar/
+
+# GhostDoc eklenti ayar dosyası
+*.GhostDoc.xml
+
+# Visual Studio için Node.js Araçları
+.ntvs_analysis.dat
+
+# Visual Studio 6 derleme günlüğü
+*.plg
+
+# Visual Studio 6 çalışma alanı seçenekleri dosyası
+*.opt
+
+# Visual Studio LightSwitch derleme çıktısı
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/Oluşturulan Yapılar
+**/*.DesktopClient/ModelManifest.xml
+**/*.Sunucu/Generated Artifacts
+**/*.Sunucu/ModelManifest.xml
+_Pvt_Uzantılar
+
+# Paket bağımlılık yöneticisi
+.paket/paket.exe
+paket dosyaları/
+
+# SAHTE - F# Yap
+.numara yapmak/
+
+# JetBrain Sürücüsü
+.fikir/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# Visual Studio için Python Araçları (PTVS)
+__pycache__/
+*.pyc
+
+# Kek - Kullanıyorsanız yorum yapın
+# aletler/
+
+# https://www.toptal.com/developers/gitignore/api/aspnetcore'un sonu
